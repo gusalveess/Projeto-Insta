@@ -1,4 +1,5 @@
 .main {
+    width: 100%;
     overflow: hidden;
 }
 
@@ -374,6 +375,11 @@ margin-top: 3px;
 
 }
 @media (max-width:935px) {
+     
+    .main {
+        width: 100%;
+    }
+
     .container-two {
         display: none;
     }
@@ -404,6 +410,10 @@ margin-top: 3px;
 
     @media (max-width:614px) {
 
+        .sidebar {
+            justify-content: space-between;
+        }
+
     .barradepesquisa {
         display: none;
     }
@@ -419,22 +429,17 @@ margin-top: 3px;
     .prof {
         display: none;
     }
-    .send-message {
-        margin-left: 300px;
-    }
     
     .camera {
         margin-top: 5px;
     }
 
     .logo2 {
-    margin-left: 209px;
     margin-right: 0px;
     margin-top: 5px;
     }
 
     .vector ion-icon {
-        margin-left: -10px;
         margin-top: 5px;
     }
 
@@ -470,7 +475,7 @@ margin-top: 3px;
 
 .sidebar-mobile {
     height: 54px;
-    width: 612px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
